@@ -17,7 +17,7 @@ cd /usr/bin
 # menu
 wget -O addip "https://raw.githubusercontent.com/shopeevpn/auto-removed-ip/main/addip.sh"
 wget -O xp-ip "https://raw.githubusercontent.com/shopeevpn/auto-removed-ip/main/xp-ip.sh"
-chmod +x menu
+chmod +x addip
 chmod +x xp-ip
 cd
 echo "55 21 * * * root /usr/bin/xp-ip # delete expired ip" >> /etc/crontab
