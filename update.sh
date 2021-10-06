@@ -15,7 +15,7 @@ echo -e "${Font_Red}   Auoto Script Removed Expired IP by RARE.${Font_Suffix}"
 sleep 5
 cd /usr/bin
 # menu
-wget -O menu "https://raw.githubusercontent.com/shopeevpn/auto-removed-ip/main/addip.sh"
+wget -O addip "https://raw.githubusercontent.com/shopeevpn/auto-removed-ip/main/addip.sh"
 wget -O xp-ip "https://raw.githubusercontent.com/shopeevpn/auto-removed-ip/main/xp-ip.sh"
 chmod +x menu
 chmod +x xp-ip
