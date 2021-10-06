@@ -12,6 +12,7 @@ clear
 echo -e ""
 echo -e ""
 echo -e "${Font_Red}   Auoto Script Removed Expired IP by RARE.${Font_Suffix}"
+echo -e ""
 sleep 5
 cd /usr/bin
 # menu
