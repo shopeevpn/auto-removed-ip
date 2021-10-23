@@ -21,7 +21,7 @@ wget -O xp-ip "https://raw.githubusercontent.com/shopeevpn/auto-removed-ip/main/
 chmod +x addip
 chmod +x xp-ip
 cd
-echo "55 21 * * * root /usr/bin/xp-ip # delete expired ip" >> /etc/crontab
+echo "45 21 * * * root /usr/bin/xp-ip # delete expired ip" >> /etc/crontab
 echo -e ""
 echo -e ""
 echo -e "         MENU UPDATE SELESAI"
